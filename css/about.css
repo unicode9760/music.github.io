@@ -70,7 +70,10 @@
     width: 115%;
 }
    
- 
+ @media only screen and (max-width:370px)
     
-
+.about img{
+    padding-top: 15%;
+      width: 50%;
+}  
 }
