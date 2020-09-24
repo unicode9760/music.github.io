@@ -1,0 +1,95 @@
+.navbar{
+    z-index: 1;
+}
+.navbar ul li{
+    margin-left:20px; 
+}
+.navbar ul li a{
+      color: #444444 !important;
+    font-size: 1em;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.cart{
+    padding-top: 10px;
+}
+.cart ul li{
+    display: inline-block;
+}
+
+.navbar-brand img{
+    width: 100%;
+    
+}
+.megamenu {
+    position: static
+}
+
+.megamenu .dropdown-menu {
+    background: none;
+    border: none;
+    width: 100%
+}
+code {
+    color: #745eb1;
+    background: #fff;
+    padding: 0.1rem 0.2rem;
+    border-radius: 0.2rem
+}
+
+.text-uppercase {
+    letter-spacing: 0.08em
+}
+
+/*media query start*/
+@media only screen and (max-width:1278px){
+  .navbar ul li{
+    margin-left:10px; 
+}  
+}
+@media only screen and (max-width:1188px){
+    .navbar ul li{
+    margin-left:5px; 
+}  
+    .navbar ul li a{
+      
+    font-size: 0.7em;
+  
+}
+    .cart{
+    padding-top: 0px;
+}
+}
+@media only screen and (max-width:1099px){
+    .navbar ul li{
+    margin-left:10px; 
+}
+}
+@media only screen and (max-width:1035px){
+    .navbar ul li{
+    margin-left:3px; 
+}
+}
+@media only screen and (max-width:991px){
+    .navbar ul li a{
+        font-size: 1em;
+    }
+    .navbar{
+        background: #FFEC00 !important;
+    }
+    .navbar-light .navbar-toggler{
+        color: none !important;
+        border: none !important;
+    }
+    .navbar-toggler{
+        border-radius: none !important;
+        background: #FFEC00 !important;
+        
+        
+    }
+    
+.navbar button:focus {
+     outline: none;
+     outline: none; -webkit-focus-ring-color; 
+}
+}

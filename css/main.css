@@ -1,0 +1,114 @@
+*{
+    margin:0px;
+    padding: 0px; 
+    outline: none;
+    
+}
+html{
+    scroll-behavior:smooth;
+}
+h1,h2,h5{
+   font-family: 'Varela Round', sans-serif;
+    color: #444444;
+}
+p,a{
+    font-family: 'Exo', sans-serif;
+}
+.clear::after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+}
+}
+a{
+    text-decoration: none !important;
+}
+
+.ceo{
+    height: 60vh;
+    
+}
+.ceo .imgbdr{
+    width: 400px;
+    height: 300px;
+    border: 8px solid #444444;
+}
+
+.ceo .imgbdr img{
+    margin: 50px 0 0 50px;
+    width: 100%;
+}
+.ceo p{
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+.ceo p span{
+    font-weight: bold;
+   
+}
+
+
+/*top btn css*/
+.gotopbtn{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background:#FFEC00 ;
+    text-decoration: none;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    line-height: 40px;
+    transition: 0.4s all;
+ 
+}
+
+.gotopbtn:hover{
+    color: #444444;
+}
+
+  
+@media only screen and (max-width:991px){
+    .ceo .imgbdr{
+    width:300px;
+    height: 200px;
+    border: 8px solid #444444;
+}
+  
+.ceo .imgbdr img{
+    margin: 30px 0 0 30px;
+ 
+}
+    .ceo{
+    height: 50vh;
+    
+}
+}
+  @media only screen and (max-width:767px){
+      .ceo p{
+    margin-top: 70px;
+    font-size: 1.2em;
+}  
+     
+    }
+@media only screen and (max-width:483px){
+    
+    .ceo p{
+    margin-top: 70px;
+    font-size: 1em;
+}  
+}
+@media only screen and (max-width:499px){
+.gotopbtn{
+   
+    bottom:80px;
+    right: 50px;
+  
+ 
+}
+}
+
+
+    
