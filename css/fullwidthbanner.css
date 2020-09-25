@@ -1,8 +1,7 @@
 .wrapper{
     position: relative;
-    height: 100vh;
     background: #FEFEFE  ;
- 
+ padding-bottom:20%;
 }
 .box2{
     width: 700px;
@@ -239,9 +238,7 @@
 } 
 }
 @media only screen and (max-width:991px){
-    .wrapper{
-        height: 80vh;
-    }
+  
     #b-content h1{
     
     font-size:2.5em; 
@@ -326,7 +323,5 @@
     font-size: 1em;
     transition: 0.4s all;
 }
-    .wrapper{
-          height: 60vh;
-      }
+   
 }
